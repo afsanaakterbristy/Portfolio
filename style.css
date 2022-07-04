@@ -160,49 +160,52 @@ section .title::after{
 .scroll-up-btn:hover{
     filter: brightness(90%);
 }
-.home{
+.home{ 
 
     display: flex;
-    background: url("images/picture1.jpg") no-repeat right ;
     height: 100vh;
     color: rgb(29, 22, 22);
     min-width: 500px;
     font-family: 'Ubuntu',sans-serif;
     
 }
-.home .max-width{
-    margin: auto 0 auto 40px;
-}
-.home .home-content{
-    font-size: 5em;
-    margin: 0;
-    padding: 0;
-    text-align: right;
-    font-family: 'arial';
-    position: absolute;
-    top:50%;
-    left: 50%;
-    transform: translateX(-60%);
-}
+
+
 .home .home-content .text-1{
     font-size: 27px;
+    align-items: center;
+    margin-right: 800px;
+   
+ 
 
 }
 .home .home-content .text-2{
-    font-size: 75px;
+    font-size: 60px;
     font-weight: 600;
-    margin-left: -3px;
+   
+    
 
 
 }
 .home .home-content .text-3 {
     font-size: 27px;
     margin: 5px 0;
+    text-align: left;
 
 }
 .home .home-content .text-3 span {
     color:rgb(90, 9, 25);
     font-weight: 600;
+    text-align: left;
+}
+.home .home-content .img {
+    height: 300px;
+    width: 300px;
+    margin-top: 50px;
+    margin-right: 600px;
+    border-radius: 3px;
+ 
+    
 }
 
 .home .home-content a{
