@@ -160,6 +160,16 @@ section .title::after{
 .scroll-up-btn:hover{
     filter: brightness(90%);
 }
+
+
+.but{
+    background: rgb(134, 15, 6);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+
+}
 .home{ 
 
     display: flex;
